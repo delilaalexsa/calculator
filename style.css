@@ -1,0 +1,41 @@
+h1{
+  text-align: center;
+}
+
+body {
+    background-color: azure;
+  }
+  
+  .container {
+    padding: 10px;
+    width: 400px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-radius: 15px;
+    font-size: 28px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  
+  .button {
+    padding: 19px;
+    flex-basis: 25%;
+    margin: 2%;
+    border: solid;
+    border-radius: 1px;
+    text-align: center;
+    background-color: rgb(108, 196, 180);
+  }
+  
+  .displayNumber {
+    text-align: right;
+    padding: 15px;
+    margin: 2%;
+    border: solid;
+    background-color: lightgrey;
+  }
